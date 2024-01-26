@@ -7,8 +7,8 @@
 #define MYRX 4
 void setup() {
   // initialize both serial ports:
-  Serial.begin(9600);
-  Serial1.begin(9600, SERIAL_8N1, MYRX, MYTX);
+  Serial.begin(19200);
+  Serial1.begin(19200, SERIAL_8N1, MYRX, MYTX);
 }
 
 

@@ -6,8 +6,11 @@
 
 #include "BluetoothSerial.h"
 
-//#define USE_PIN // Uncomment this to use PIN during pairing. The pin is specified on the line below
+#define USE_PIN // Uncomment this to use PIN during pairing. The pin is specified on the line below
 const char *pin = "1234"; // Change this to more secure PIN.
+
+#define MYTX 5
+#define MYRX 4
 
 String device_name = "ESP32-BT-Slave";
 
